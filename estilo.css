@@ -1,0 +1,86 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #21152f, #54265f, #a13f69);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.app {
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.juegos {
+  display: grid;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+button {
+  padding: 16px;
+  border: none;
+  border-radius: 14px;
+  background: #ffcc70;
+  color: #301b36;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+.tarjeta {
+  background: white;
+  color: #301b36;
+  padding: 30px 20px;
+  border-radius: 22px;
+  margin: 25px 0;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 8px 25px #0003;
+}
+
+#pregunta {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#contador {
+  color: #8b477c;
+  font-size: 0.9rem;
+}
+
+.secundario {
+  display: block;
+  margin: 12px auto;
+  background: #e9dcef;
+}
+
+#estado {
+  margin-top: 20px;
+}
+
+[hidden] {
+  display: none !important;
+}

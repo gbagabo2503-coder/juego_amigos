@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiesta entre Amigos</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main class="app">
+    <h1>🎉 Fiesta entre Amigos</h1>
+    <p>Elige un juego y que comience la diversión.</p>
+
+    <section id="menu" class="juegos">
+      <button data-juego="quien_es_mas_probable">
+        ¿Quién es más probable?
+      </button>
+      <button data-juego="yo_nunca_nunca">
+        Yo nunca nunca
+      </button>
+      <button data-juego="verdad_o_reto">
+        Verdad o reto
+      </button>
+      <button data-juego="simon_dice">
+        Simón dice
+      </button>
+      <button data-juego="cartas_sorpresa">
+        Cartas sorpresa
+      </button>
+    </section>
+
+    <section id="partida" hidden>
+      <h2 id="nombreJuego"></h2>
+      <div class="tarjeta">
+        <span id="contador"></span>
+        <p id="pregunta">Tu pregunta aparecerá aquí.</p>
+      </div>
+      <button id="siguiente">Siguiente ➜</button>
+      <button id="volver" class="secundario">Volver al menú</button>
+    </section>
+
+    <p id="estado" role="status"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
