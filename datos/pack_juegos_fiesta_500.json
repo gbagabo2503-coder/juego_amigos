@@ -1,0 +1,3635 @@
+{
+  "app_content_version": "1.0",
+  "language": "es-MX",
+  "description": "Contenido para juegos de fiesta con amigos. Beber siempre es opcional.",
+  "rules": {
+    "general": [
+      "Cada persona puede pasar una pregunta o reto sin explicar el motivo.",
+      "Nunca se obliga a beber; se puede usar agua, puntos, fichas o ninguna penalización.",
+      "No se permiten retos peligrosos, conducción, contacto no consentido ni publicación de contenido privado.",
+      "Barajar las cartas y evitar repetir IDs durante una partida."
+    ],
+    "intensity": {
+      "1": "Suave",
+      "2": "Atrevido",
+      "3": "Intenso"
+    },
+    "quien_es_mas_probable_que": "Todos votan a la vez o señalan; gana la persona con más votos. En empate, no hay penalización.",
+    "yo_nunca_nunca": "Quien sí haya vivido la situación puede levantar la mano o compartir una anécdota; no necesita beber.",
+    "verdad_o_reto": "El jugador elige verdad o reto; puede cambiar una vez o pasar.",
+    "simon_dice": "Solo se ejecutan órdenes que comienzan con «Simón dice». El anfitrión puede alternar órdenes falsas para probar atención.",
+    "cartas_sorpresa": "Roba una carta y sigue su efecto; los efectos de puntos son opcionales."
+  },
+  "games": {
+    "quien_es_mas_probable": [
+      {
+        "id": "quien_es_mas_probable_001",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que a enamorarse de alguien que acaba de conocer?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_002",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que revisar el perfil de su ex por curiosidad?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_003",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que olvidar por completo una fecha importante?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_004",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que llegar tarde incluso teniendo tiempo de sobra?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_005",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que contar un secreto sin querer?",
+        "category": "confesiones",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_006",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que hacer reír a todos en un momento serio?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_007",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que mandar un mensaje y arrepentirse al instante?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_008",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que convertirse en famoso por algo absurdo?",
+        "category": "caos",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_009",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que organizar un viaje sin planear nada?",
+        "category": "aventura",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_010",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que perder el celular mientras lo tiene en la mano?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_011",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que tener un crush secreto dentro del grupo?",
+        "category": "romance",
+        "intensity": 3
+      },
+      {
+        "id": "quien_es_mas_probable_012",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que terminar cantando a todo pulmón en el karaoke?",
+        "category": "fiesta",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_013",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que hacer amistad con un desconocido en cinco minutos?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_014",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que comprar algo impulsivamente y arrepentirse?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_015",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que inventar una excusa para cancelar una salida?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_016",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que dar el mejor consejo y no seguirlo?",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_017",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que quedarse dormido durante una película?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_018",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que tener la anécdota más vergonzosa de una fiesta?",
+        "category": "fiesta",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_019",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que perdonar demasiado rápido?",
+        "category": "relaciones",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_020",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que hacer una locura por amor?",
+        "category": "romance",
+        "intensity": 3
+      },
+      {
+        "id": "quien_es_mas_probable_021",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que olvidar el nombre de alguien justo después de conocerlo?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_022",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que convertir cualquier conversación en un debate?",
+        "category": "personalidad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_023",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que ser el primero en proponer una aventura espontánea?",
+        "category": "aventura",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_024",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que tener una playlist secreta de canciones cursis?",
+        "category": "humor",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_025",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que ser detective de las historias de Instagram?",
+        "category": "redes",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_026",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que guardar capturas de pantalla de conversaciones graciosas?",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_027",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que romper el hielo en una reunión de desconocidos?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_028",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que llorar con una película animada?",
+        "category": "emociones",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_029",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que hacerse amigo de una mascota antes que de su dueño?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_030",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que ser el último en irse de una fiesta?",
+        "category": "fiesta",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_031",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se haga el indiferente cuando alguien le gusta?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_032",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que confiese algo inesperado durante una cena?",
+        "category": "confesiones",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_033",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que olvide dónde estacionó?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_034",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se ría tanto que no pueda terminar una historia?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_035",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se aprenda una coreografía de internet?",
+        "category": "redes",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_036",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se vaya de viaje con una mochila y nada más?",
+        "category": "aventura",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_037",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se convierta en el terapeuta no oficial del grupo?",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_038",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se ponga nervioso al recibir un cumplido?",
+        "category": "romance",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_039",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que mande un audio de cinco minutos para decir algo simple?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_040",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que haga una compra solo porque estaba en oferta?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_041",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se quede hablando hasta que amanezca?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_042",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que olvide por qué entró a una habitación?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_043",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que termine en una conversación profunda a las tres de la mañana?",
+        "category": "emociones",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_044",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se atreva a hablarle primero a su crush?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_045",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se equivoque de chat al mandar un mensaje?",
+        "category": "humor",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_046",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que cante con mucha emoción aunque no se sepa la letra?",
+        "category": "fiesta",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_047",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que haga un plan y cambie todo a última hora?",
+        "category": "personalidad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_048",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que sea incapaz de guardar una sorpresa por mucho tiempo?",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_049",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se vuelva viral por una caída sin consecuencias?",
+        "category": "redes",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_050",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que gane una discusión usando argumentos absurdos?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_051",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que tenga una historia de amor digna de una película?",
+        "category": "romance",
+        "intensity": 3
+      },
+      {
+        "id": "quien_es_mas_probable_052",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se tome más fotos que todos los demás?",
+        "category": "redes",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_053",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se pierda usando el GPS?",
+        "category": "aventura",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_054",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se ofrezca a ayudar y termine organizándolo todo?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_055",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que pida comida para todos y elija algo que nadie esperaba?",
+        "category": "comida",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_056",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que haga una broma y sea el único que se ría?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_057",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que recuerde detalles pequeños de sus amigos?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_058",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se emocione más por el postre que por la comida?",
+        "category": "comida",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_059",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se quede despierto viendo una serie toda la noche?",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_060",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se atreva a probar una actividad nueva sin pensarlo?",
+        "category": "aventura",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_061",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se enamore de alguien por su sentido del humor?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_062",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que dé una opinión impopular con total seguridad?",
+        "category": "personalidad",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_063",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que termine haciendo de fotógrafo de todo el grupo?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_064",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que haga una lista para organizar una salida espontánea?",
+        "category": "personalidad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_065",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se ponga sentimental al recordar viejos tiempos?",
+        "category": "emociones",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_066",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que tenga más pestañas abiertas que paciencia?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_067",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se acuerde de una conversación de hace años?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_068",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se haga un cambio de look de un día para otro?",
+        "category": "estilo",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_069",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que termine bailando aunque al principio dijo que no?",
+        "category": "fiesta",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_070",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que conozca todos los chismes pero diga que no sabe nada?",
+        "category": "chisme",
+        "intensity": 3
+      },
+      {
+        "id": "quien_es_mas_probable_071",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que defienda a un amigo aunque no esté presente?",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_072",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se atreva a pedir disculpas primero?",
+        "category": "relaciones",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_073",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que haga una broma interna que nadie más entienda?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_074",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que pierda una apuesta por exceso de confianza?",
+        "category": "juegos",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_075",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se quede con el último pedazo y luego lo niegue?",
+        "category": "comida",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_076",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se haga una cuenta nueva para empezar de cero?",
+        "category": "redes",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_077",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que termine aconsejando a dos personas que discuten?",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_078",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que haga amistad con el personal de cualquier lugar?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_079",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que tenga una colección muy extraña?",
+        "category": "gustos",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_080",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que organice una fiesta sorpresa perfecta?",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_081",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que tenga un talento que casi nadie conoce?",
+        "category": "talentos",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_082",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se ría en el momento menos apropiado?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_083",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que pida repetir una historia porque no estaba escuchando?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_084",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se acuerde de todas las letras de canciones antiguas?",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_085",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se anime a hablar en público sin preparación?",
+        "category": "personalidad",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_086",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que termine adoptando una planta y olvidando regarla?",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_087",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que sea el más competitivo en un juego sencillo?",
+        "category": "juegos",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_088",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que haga un regalo hecho a mano?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_089",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que diga que ya va saliendo cuando aún no se ha arreglado?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_090",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se tome demasiado en serio elegir una película?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_091",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que encuentre una oferta increíble por casualidad?",
+        "category": "suerte",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_092",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se haga amigo de alguien por compartir memes?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_093",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se aprenda un dato inútil y lo mencione siempre?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_094",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que termine explicando las reglas de todos los juegos?",
+        "category": "juegos",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_095",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se atreva a cambiar de opinión al escuchar buenos argumentos?",
+        "category": "personalidad",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_096",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se quede sin batería en el peor momento?",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_097",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se ofrezca a cocinar para todo el grupo?",
+        "category": "comida",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_098",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que sepa cuándo alguien está triste aunque lo disimule?",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "quien_es_mas_probable_099",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que haga un discurso motivacional improvisado?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "quien_es_mas_probable_100",
+        "game": "quien_es_mas_probable",
+        "text": "¿Quién es más probable que se emocione al planear algo que falta meses?",
+        "category": "personalidad",
+        "intensity": 1
+      }
+    ],
+    "yo_nunca_nunca": [
+      {
+        "id": "yo_nunca_nunca_001",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya stalkeado a alguien antes de conocerlo en persona.",
+        "category": "redes",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_002",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya fingido estar ocupado para evitar un plan.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_003",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya enviado un mensaje y se haya arrepentido.",
+        "category": "humor",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_004",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya tenido un crush por alguien de este grupo.",
+        "category": "romance",
+        "intensity": 3
+      },
+      {
+        "id": "yo_nunca_nunca_005",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya mentido para impresionar a alguien.",
+        "category": "confesiones",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_006",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya inventado una excusa para irse temprano.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_007",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya tenido una cita desastrosa.",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_008",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya olvidado el cumpleaños de alguien importante.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_009",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya revisado varias veces si alguien vio su historia.",
+        "category": "redes",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_010",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya practicado una conversación frente al espejo.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_011",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya cantado una canción triste estando feliz.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_012",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya fingido entender un chiste.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_013",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya buscado su propio nombre en internet.",
+        "category": "redes",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_014",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya dicho «ya voy» sin haber salido de casa.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_015",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya tenido celos sin admitirlo.",
+        "category": "relaciones",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_016",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya guardado un regalo que nunca usó.",
+        "category": "confesiones",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_017",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya contado una historia exagerándola un poco.",
+        "category": "confesiones",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_018",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya borrado un mensaje antes de que lo leyeran.",
+        "category": "redes",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_019",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya sentido vergüenza por algo que publicó.",
+        "category": "redes",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_020",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya fingido que le gustaba una canción.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_021",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya vuelto a ver una serie por tercera vez.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_022",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya perdido algo que tenía en la mano.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_023",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya dicho que no tenía hambre y luego haya comido de todos.",
+        "category": "comida",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_024",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya mandado un audio y lo haya escuchado antes de enviarlo.",
+        "category": "redes",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_025",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya inventado una excusa para no contestar una llamada.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_026",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya tenido una conversación completa en su cabeza.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_027",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya sentido pena al saludar a alguien que no lo reconoció.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_028",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya fingido conocer a una banda para encajar.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_029",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya hecho una compra impulsiva.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_030",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya llorado con una película o serie.",
+        "category": "emociones",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_031",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya tenido una risa nerviosa en un momento serio.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_032",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya olvidado por qué entró a una habitación.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_033",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya dicho que entendió instrucciones sin entenderlas.",
+        "category": "confesiones",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_034",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya dejado una tarea para el último momento.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_035",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya sentido vergüenza por una foto antigua.",
+        "category": "redes",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_036",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya fingido estar dormido para no hablar.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_037",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya tenido una canción pegada durante días.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_038",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya contado un secreto a la persona equivocada.",
+        "category": "confesiones",
+        "intensity": 3
+      },
+      {
+        "id": "yo_nunca_nunca_039",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya hecho una captura de pantalla para comentarla con un amigo.",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_040",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca haya olvidado el nombre de alguien recién presentado.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_041",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he cambiado de opinión sobre alguien después de conocerlo mejor.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_042",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he tenido un sueño extraño con alguien que conozco.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_043",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he respondido «jajaja» sin reírme.",
+        "category": "redes",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_044",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he fingido que no vi un mensaje.",
+        "category": "redes",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_045",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he buscado pistas para descubrir si le gusto a alguien.",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_046",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he tenido un flechazo en un lugar público.",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_047",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he dado un consejo que yo mismo no sigo.",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_048",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he repetido una anécdota porque nadie me escuchó.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_049",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he hablado solo mientras hacía algo.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_050",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he ensayado una pose antes de tomarme una foto.",
+        "category": "redes",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_051",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he dicho «una más y nos vamos» y me he quedado mucho más.",
+        "category": "fiesta",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_052",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he olvidado contestar durante varios días.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_053",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he fingido que conocía el camino.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_054",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he tenido una discusión imaginaria en la ducha.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_055",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he revisado una conversación antigua.",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_056",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he tenido vergüenza de pedir que repitan algo.",
+        "category": "personalidad",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_057",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he inventado una letra cuando no me sabía una canción.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_058",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he elegido una película y me he quedado dormido.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_059",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he guardado comida para no compartirla.",
+        "category": "comida",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_060",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he dicho que estaba llegando cuando apenas iba a salir.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_061",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he usado un meme para evitar responder en serio.",
+        "category": "redes",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_062",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he pensado demasiado antes de mandar un saludo.",
+        "category": "romance",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_063",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he confundido a dos personas.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_064",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he tenido una opinión impopular sobre una película famosa.",
+        "category": "gustos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_065",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he intentado arreglar algo y lo he empeorado.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_066",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he olvidado una contraseña que acababa de crear.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_067",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he comprado algo solo por su empaque.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_068",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he hecho una lista y luego la he perdido.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_069",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he fingido estar tranquilo estando nervioso.",
+        "category": "emociones",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_070",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he sentido nostalgia por una etapa que antes quería terminar.",
+        "category": "emociones",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_071",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he reído tanto que me han salido lágrimas.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_072",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he guardado un recuerdo pequeño por su valor sentimental.",
+        "category": "emociones",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_073",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he dejado una serie a medias y luego la he retomado meses después.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_074",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he cantado frente al espejo como si fuera un concierto.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_075",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he dado «me gusta» por accidente mientras investigaba un perfil.",
+        "category": "redes",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_076",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he hecho planes y luego he preferido quedarme en casa.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_077",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he dicho «no me importa» cuando sí me importaba.",
+        "category": "emociones",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_078",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he olvidado dónde dejé mis llaves.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_079",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he preparado una respuesta ingeniosa demasiado tarde.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_080",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he sentido curiosidad por el chisme aunque no conociera a nadie.",
+        "category": "chisme",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_081",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he cambiado de ropa varias veces antes de salir.",
+        "category": "estilo",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_082",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he intentado no reírme y he terminado riéndome más.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_083",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he tenido un apodo que no me gustaba.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_084",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he mandado un mensaje al chat equivocado.",
+        "category": "humor",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_085",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he aprendido algo por accidente viendo videos.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_086",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he hecho una promesa de año nuevo que no cumplí.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_087",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he llegado a un lugar y olvidado para qué iba.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_088",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he tenido una canción culpable que me encanta.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_089",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he pedido recomendación y luego elegido otra cosa.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_090",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he ocultado que no entendí una referencia.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_091",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he cambiado de tema porque me daba pena responder.",
+        "category": "confesiones",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_092",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he recibido un cumplido y no he sabido qué decir.",
+        "category": "romance",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_093",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he tenido una conversación profunda con un desconocido.",
+        "category": "emociones",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_094",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he usado una excusa poco convincente y aun así me creyeron.",
+        "category": "humor",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_095",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he sentido que era el personaje principal de una canción.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_096",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he vuelto a leer un mensaje bonito varias veces.",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_097",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he guardado un contacto con un apodo secreto.",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "yo_nunca_nunca_098",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he olvidado una fecha y tratado de disimularlo.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_099",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he dicho que iba a dormir temprano y no lo hice.",
+        "category": "hábitos",
+        "intensity": 1
+      },
+      {
+        "id": "yo_nunca_nunca_100",
+        "game": "yo_nunca_nunca",
+        "text": "Yo nunca nunca he probado comida de otra persona después de decir que no quería.",
+        "category": "comida",
+        "intensity": 1
+      }
+    ],
+    "verdad_o_reto": [
+      {
+        "id": "verdad_o_reto_001",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Cuál fue tu primera impresión de la persona a tu derecha?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_002",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué canción te da vergüenza admitir que te encanta?",
+        "category": "gustos",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_003",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Cuál es una manía tuya que pocos conocen?",
+        "category": "personalidad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_004",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué pequeño detalle te conquista de alguien?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_005",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Cuál ha sido tu peor oso en público?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_006",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué talento inútil tienes?",
+        "category": "talentos",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_007",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué cosa te pone nervioso aunque parezca sencilla?",
+        "category": "personalidad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_008",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué personaje ficticio sería tu pareja ideal?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_009",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Cuál es la excusa más graciosa que has usado?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_010",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué rumor falso sobre ti sería más creíble?",
+        "category": "humor",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_011",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué recuerdo de este grupo te hace reír más?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_012",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué hábito te gustaría cambiar?",
+        "category": "personalidad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_013",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué cumplido recuerdas todavía?",
+        "category": "emociones",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_014",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué es lo más impulsivo que has hecho por diversión?",
+        "category": "aventura",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_015",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué te hace perder el interés en alguien?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_016",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué es algo que la gente suele malinterpretar de ti?",
+        "category": "personalidad",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_017",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Cuál es tu peor costumbre al mandar mensajes?",
+        "category": "redes",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_018",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué cosa te da vergüenza pedir?",
+        "category": "confesiones",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_019",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué plan perfecto harías con tus amigos?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_020",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Cuál fue tu etapa de moda más cuestionable?",
+        "category": "estilo",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_021",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué mentira piadosa dices con frecuencia?",
+        "category": "confesiones",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_022",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué te hace sentir orgulloso de ti?",
+        "category": "emociones",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_023",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué es lo más raro que has buscado en internet?",
+        "category": "humor",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_024",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué amistad te sorprendió más al principio?",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_025",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué habilidad te gustaría aprender de inmediato?",
+        "category": "talentos",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_026",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué te hace reír aunque estés de mal humor?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_027",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué cita o salida recuerdas por lo extraña que fue?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_028",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué opinión tuya suele causar debate?",
+        "category": "gustos",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_029",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Cuál es tu mayor señal de que alguien te gusta?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_030",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué cosa infantil todavía disfrutas?",
+        "category": "gustos",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_031",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué decisión pequeña terminó cambiando tus planes?",
+        "category": "aventura",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_032",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué te gustaría que tus amigos reconocieran más de ti?",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_033",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Cuál es el peor regalo que has recibido y cómo reaccionaste?",
+        "category": "humor",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_034",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué es algo que jamás prestarías?",
+        "category": "personalidad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_035",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué te ayuda a salir de un mal día?",
+        "category": "emociones",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_036",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué primera impresión tuya suele ser equivocada?",
+        "category": "personalidad",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_037",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué es lo más cursi que has hecho por alguien?",
+        "category": "romance",
+        "intensity": 3
+      },
+      {
+        "id": "verdad_o_reto_038",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué tema podrías hablar durante horas?",
+        "category": "gustos",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_039",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Cuál fue tu momento más orgulloso en la escuela o el trabajo?",
+        "category": "emociones",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_040",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué hábito extraño tienes cuando estás a solas?",
+        "category": "humor",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_041",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué harías si tuvieras un día libre sin obligaciones?",
+        "category": "aventura",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_042",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué detalle te hace confiar en una persona?",
+        "category": "amistad",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_043",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué es algo que te cuesta admitir cuando te equivocas?",
+        "category": "personalidad",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_044",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué cosa te parece atractiva y casi nadie menciona?",
+        "category": "romance",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_045",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Cuál es tu recuerdo favorito de una celebración?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_046",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué aplicación usas más de lo que quisieras?",
+        "category": "redes",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_047",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué harías si pudieras cambiar una decisión sin consecuencias?",
+        "category": "reflexión",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_048",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué te gustaría atreverte a hacer este año?",
+        "category": "aventura",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_049",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué es lo más gracioso que has entendido mal?",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_050",
+        "game": "verdad_o_reto",
+        "text": "VERDAD: ¿Qué cualidad admiras más en tus amigos?",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_051",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una imitación cariñosa de alguien famoso durante 15 segundos.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_052",
+        "game": "verdad_o_reto",
+        "text": "RETO: Inventa un anuncio para el objeto que tengas más cerca.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_053",
+        "game": "verdad_o_reto",
+        "text": "RETO: Canta el coro de una canción elegida por el grupo.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_054",
+        "game": "verdad_o_reto",
+        "text": "RETO: Cuenta una historia cotidiana como si fuera una película épica.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_055",
+        "game": "verdad_o_reto",
+        "text": "RETO: Baila durante 15 segundos sin música.",
+        "category": "baile",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_056",
+        "game": "verdad_o_reto",
+        "text": "RETO: Habla como narrador de documental durante una ronda.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_057",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una pose de portada de revista y mantenla cinco segundos.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_058",
+        "game": "verdad_o_reto",
+        "text": "RETO: Dibuja un animal con los ojos cerrados y deja que adivinen.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_059",
+        "game": "verdad_o_reto",
+        "text": "RETO: Di tres cumplidos sinceros a personas distintas del grupo.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_060",
+        "game": "verdad_o_reto",
+        "text": "RETO: Inventa un apodo amable para ti mismo.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_061",
+        "game": "verdad_o_reto",
+        "text": "RETO: Representa una emoción sin hablar y deja que la adivinen.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_062",
+        "game": "verdad_o_reto",
+        "text": "RETO: Explica cómo preparar un sándwich como si fuera ciencia avanzada.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_063",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una mini pasarela con tu estilo actual.",
+        "category": "estilo",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_064",
+        "game": "verdad_o_reto",
+        "text": "RETO: Di el abecedario como si estuvieras en una telenovela.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_065",
+        "game": "verdad_o_reto",
+        "text": "RETO: Inventa un saludo secreto con la persona de tu izquierda.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_066",
+        "game": "verdad_o_reto",
+        "text": "RETO: Cuenta un chiste; si nadie se ríe, cuenta otro.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_067",
+        "game": "verdad_o_reto",
+        "text": "RETO: Habla rimando durante los próximos tres turnos.",
+        "category": "creatividad",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_068",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una estatua dramática inspirada en una película.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_069",
+        "game": "verdad_o_reto",
+        "text": "RETO: Imita un robot que acaba de descubrir la música.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_070",
+        "game": "verdad_o_reto",
+        "text": "RETO: Describe tu día usando solo cinco palabras.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_071",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una reseña exagerada del último alimento que probaste.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_072",
+        "game": "verdad_o_reto",
+        "text": "RETO: Tararea una canción para que el grupo la adivine.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_073",
+        "game": "verdad_o_reto",
+        "text": "RETO: Inventa un lema para el grupo.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_074",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una entrevista de celebridad a la persona de tu derecha.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_075",
+        "game": "verdad_o_reto",
+        "text": "RETO: Cuenta una anécdota graciosa en menos de 30 segundos.",
+        "category": "historias",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_076",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una celebración deportiva por una victoria imaginaria.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_077",
+        "game": "verdad_o_reto",
+        "text": "RETO: Di una frase normal como si fuera una declaración de amor a una pizza.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_078",
+        "game": "verdad_o_reto",
+        "text": "RETO: Imita la forma en que camina un pingüino durante cinco pasos.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_079",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una predicción absurda sobre el futuro del grupo.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_080",
+        "game": "verdad_o_reto",
+        "text": "RETO: Crea un jingle de cinco segundos para una marca inventada.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_081",
+        "game": "verdad_o_reto",
+        "text": "RETO: Habla como presentador de noticias hasta tu próximo turno.",
+        "category": "actuación",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_082",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una escena de telenovela con un objeto como coprotagonista.",
+        "category": "actuación",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_083",
+        "game": "verdad_o_reto",
+        "text": "RETO: Describe a tu mejor amigo como si fuera un superhéroe.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_084",
+        "game": "verdad_o_reto",
+        "text": "RETO: Inventa una coreografía de tres movimientos y enséñala.",
+        "category": "baile",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_085",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una risa malvada de villano de película.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_086",
+        "game": "verdad_o_reto",
+        "text": "RETO: Dale un discurso motivacional a una silla durante diez segundos.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_087",
+        "game": "verdad_o_reto",
+        "text": "RETO: Explica una regla de juego como si fueras un profesor estricto.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_088",
+        "game": "verdad_o_reto",
+        "text": "RETO: Di tres palabras que describan al grupo y explica una.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_089",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz mímica de una profesión hasta que alguien la adivine.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_090",
+        "game": "verdad_o_reto",
+        "text": "RETO: Inventa una historia que incluya las palabras gato, cohete y tamal.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_091",
+        "game": "verdad_o_reto",
+        "text": "RETO: Mantén una conversación de 20 segundos usando solo preguntas.",
+        "category": "creatividad",
+        "intensity": 2
+      },
+      {
+        "id": "verdad_o_reto_092",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz un brindis con agua o tu bebida sin alcohol favorita.",
+        "category": "social",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_093",
+        "game": "verdad_o_reto",
+        "text": "RETO: Cambia tu voz a la de un personaje animado por un turno.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_094",
+        "game": "verdad_o_reto",
+        "text": "RETO: Crea un paso de baile llamado «el lunes» y muéstralo.",
+        "category": "baile",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_095",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una publicidad para vender un calcetín imaginario.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_096",
+        "game": "verdad_o_reto",
+        "text": "RETO: Describe una película famosa sin mencionar nombres propios.",
+        "category": "juegos",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_097",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una reverencia como si acabaras de ganar un premio.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_098",
+        "game": "verdad_o_reto",
+        "text": "RETO: Inventa una palabra nueva y define qué significa.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_099",
+        "game": "verdad_o_reto",
+        "text": "RETO: Haz una foto grupal solo si todos están de acuerdo.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "verdad_o_reto_100",
+        "game": "verdad_o_reto",
+        "text": "RETO: Elige un objeto y explica por qué sería un buen presidente.",
+        "category": "humor",
+        "intensity": 1
+      }
+    ],
+    "simon_dice": [
+      {
+        "id": "simon_dice_001",
+        "game": "simon_dice",
+        "text": "Simón dice: toca tu cabeza y luego tus hombros.",
+        "category": "atención",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_002",
+        "game": "simon_dice",
+        "text": "Simón dice: señala algo de color azul.",
+        "category": "atención",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_003",
+        "game": "simon_dice",
+        "text": "Simón dice: da dos palmadas y gira una vez lentamente.",
+        "category": "movimiento",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_004",
+        "game": "simon_dice",
+        "text": "Simón dice: imita a un gato durante tres segundos.",
+        "category": "imitación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_005",
+        "game": "simon_dice",
+        "text": "Simón dice: levanta una mano y di tu nombre al revés si puedes.",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_006",
+        "game": "simon_dice",
+        "text": "Simón dice: quédate congelado como estatua.",
+        "category": "atención",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_007",
+        "game": "simon_dice",
+        "text": "Simón dice: señala a alguien que lleve algo negro.",
+        "category": "atención",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_008",
+        "game": "simon_dice",
+        "text": "Simón dice: di tres frutas en cinco segundos.",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_009",
+        "game": "simon_dice",
+        "text": "Simón dice: camina en tu sitio como robot.",
+        "category": "movimiento",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_010",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una cara de sorpresa.",
+        "category": "imitación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_011",
+        "game": "simon_dice",
+        "text": "Simón dice: cuenta del cinco al uno.",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_012",
+        "game": "simon_dice",
+        "text": "Simón dice: di una palabra que empiece con M.",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_013",
+        "game": "simon_dice",
+        "text": "Simón dice: cruza los brazos y luego descrúzalos.",
+        "category": "movimiento",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_014",
+        "game": "simon_dice",
+        "text": "Simón dice: imita una alarma de despertador.",
+        "category": "imitación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_015",
+        "game": "simon_dice",
+        "text": "Simón dice: nombra tres películas en cinco segundos.",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_016",
+        "game": "simon_dice",
+        "text": "Simón dice: toca tu rodilla derecha con tu mano izquierda.",
+        "category": "coordinación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_017",
+        "game": "simon_dice",
+        "text": "Simón dice: di el nombre de un animal y su sonido.",
+        "category": "imitación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_018",
+        "game": "simon_dice",
+        "text": "Simón dice: mantén una sonrisa durante cinco segundos.",
+        "category": "control",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_019",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una pose de superhéroe.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_020",
+        "game": "simon_dice",
+        "text": "Simón dice: di una palabra que rime con corazón.",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_021",
+        "game": "simon_dice",
+        "text": "Simón dice: haz como si estuvieras remando en una canoa",
+        "category": "movimiento",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_022",
+        "game": "simon_dice",
+        "text": "Simón dice: menciona tres colores sin repetir ninguno",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_023",
+        "game": "simon_dice",
+        "text": "Simón dice: imita a un presentador del clima",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_024",
+        "game": "simon_dice",
+        "text": "Simón dice: da una palmada cada vez que escuches una palabra con A durante una frase leída por otro jugador",
+        "category": "atención",
+        "intensity": 2
+      },
+      {
+        "id": "simon_dice_025",
+        "game": "simon_dice",
+        "text": "Simón dice: di tu comida favorita sin usar la letra inicial",
+        "category": "creatividad",
+        "intensity": 2
+      },
+      {
+        "id": "simon_dice_026",
+        "game": "simon_dice",
+        "text": "Simón dice: nombra cuatro animales en cinco segundos",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_027",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una pose de modelo y congélate",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_028",
+        "game": "simon_dice",
+        "text": "Simón dice: imita el sonido de una moto arrancando",
+        "category": "imitación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_029",
+        "game": "simon_dice",
+        "text": "Simón dice: toca algo suave que esté a tu alcance",
+        "category": "atención",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_030",
+        "game": "simon_dice",
+        "text": "Simón dice: di los días de la semana al revés si puedes",
+        "category": "memoria",
+        "intensity": 2
+      },
+      {
+        "id": "simon_dice_031",
+        "game": "simon_dice",
+        "text": "Simón dice: camina en cámara lenta durante cinco segundos",
+        "category": "movimiento",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_032",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una cara de que acabas de probar un limón",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_033",
+        "game": "simon_dice",
+        "text": "Simón dice: di dos cosas que nunca llevarías a la playa",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_034",
+        "game": "simon_dice",
+        "text": "Simón dice: nombra una ciudad que empiece con P",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_035",
+        "game": "simon_dice",
+        "text": "Simón dice: imita a alguien que intenta no estornudar",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_036",
+        "game": "simon_dice",
+        "text": "Simón dice: haz un corazón con las manos",
+        "category": "movimiento",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_037",
+        "game": "simon_dice",
+        "text": "Simón dice: di tres objetos que haya en una cocina",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_038",
+        "game": "simon_dice",
+        "text": "Simón dice: finge que estás atrapado en una caja invisible",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_039",
+        "game": "simon_dice",
+        "text": "Simón dice: mantén el equilibrio sobre ambos pies mientras cuentas hasta cinco",
+        "category": "coordinación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_040",
+        "game": "simon_dice",
+        "text": "Simón dice: di una palabra que empiece con la última letra de tu nombre",
+        "category": "rapidez",
+        "intensity": 2
+      },
+      {
+        "id": "simon_dice_041",
+        "game": "simon_dice",
+        "text": "Simón dice: imita a un comentarista de fútbol narrando una carrera imaginaria",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_042",
+        "game": "simon_dice",
+        "text": "Simón dice: haz dos gestos y pide al grupo que los copie en orden",
+        "category": "memoria",
+        "intensity": 2
+      },
+      {
+        "id": "simon_dice_043",
+        "game": "simon_dice",
+        "text": "Simón dice: nombra tres cosas redondas",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_044",
+        "game": "simon_dice",
+        "text": "Simón dice: finge que estás bajo una lluvia imaginaria",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_045",
+        "game": "simon_dice",
+        "text": "Simón dice: di una palabra en otro idioma que conozcas",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_046",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una reverencia como artista de teatro",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_047",
+        "game": "simon_dice",
+        "text": "Simón dice: señala algo que tenga forma rectangular",
+        "category": "atención",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_048",
+        "game": "simon_dice",
+        "text": "Simón dice: di tres nombres propios que empiecen con L",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_049",
+        "game": "simon_dice",
+        "text": "Simón dice: imita un teléfono que está vibrando",
+        "category": "imitación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_050",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una pose de deportista al ganar una medalla",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_051",
+        "game": "simon_dice",
+        "text": "Simón dice: di un trabalenguas despacio y luego más rápido",
+        "category": "rapidez",
+        "intensity": 2
+      },
+      {
+        "id": "simon_dice_052",
+        "game": "simon_dice",
+        "text": "Simón dice: simula abrir un regalo que te emociona muchísimo",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_053",
+        "game": "simon_dice",
+        "text": "Simón dice: nombra dos cosas que llevarías a una isla",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_054",
+        "game": "simon_dice",
+        "text": "Simón dice: haz un movimiento de baile y que todos lo repitan",
+        "category": "coordinación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_055",
+        "game": "simon_dice",
+        "text": "Simón dice: di una palabra que rime con ventana",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_056",
+        "game": "simon_dice",
+        "text": "Simón dice: imita a un robot con poca batería",
+        "category": "imitación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_057",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una expresión de sospecha de detective",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_058",
+        "game": "simon_dice",
+        "text": "Simón dice: cuenta cuántas personas llevan zapatos oscuros",
+        "category": "atención",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_059",
+        "game": "simon_dice",
+        "text": "Simón dice: di tres instrumentos musicales",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_060",
+        "game": "simon_dice",
+        "text": "Simón dice: haz como si estuvieras lanzando una pelota imaginaria",
+        "category": "movimiento",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_061",
+        "game": "simon_dice",
+        "text": "Simón dice: menciona una película usando solo gestos",
+        "category": "actuación",
+        "intensity": 2
+      },
+      {
+        "id": "simon_dice_062",
+        "game": "simon_dice",
+        "text": "Simón dice: di una palabra que empiece con la última letra de «fiesta»",
+        "category": "rapidez",
+        "intensity": 2
+      },
+      {
+        "id": "simon_dice_063",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una mini rutina de estiramiento suave",
+        "category": "movimiento",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_064",
+        "game": "simon_dice",
+        "text": "Simón dice: nombra tres sabores de helado",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_065",
+        "game": "simon_dice",
+        "text": "Simón dice: finge que eres un chef presentando un platillo",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_066",
+        "game": "simon_dice",
+        "text": "Simón dice: di dos cosas que se pueden encontrar en una mochila",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_067",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una pose de estatua durante siete segundos",
+        "category": "control",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_068",
+        "game": "simon_dice",
+        "text": "Simón dice: imita a un pato caminando sin desplazarte",
+        "category": "imitación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_069",
+        "game": "simon_dice",
+        "text": "Simón dice: di una emoción y represéntala sin hablar",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_070",
+        "game": "simon_dice",
+        "text": "Simón dice: señala algo que tenga una letra escrita",
+        "category": "atención",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_071",
+        "game": "simon_dice",
+        "text": "Simón dice: di tres palabras que empiecen con S",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_072",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una cara de villano de caricatura",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_073",
+        "game": "simon_dice",
+        "text": "Simón dice: simula que estás tocando batería",
+        "category": "movimiento",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_074",
+        "game": "simon_dice",
+        "text": "Simón dice: nombra tres cosas que brillen",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_075",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una presentación de ti como si fueras una estrella",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_076",
+        "game": "simon_dice",
+        "text": "Simón dice: di una palabra que rime con canción",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_077",
+        "game": "simon_dice",
+        "text": "Simón dice: haz un gesto de saludo inventado",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_078",
+        "game": "simon_dice",
+        "text": "Simón dice: finge que estás pescando un pez enorme",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_079",
+        "game": "simon_dice",
+        "text": "Simón dice: menciona dos animales que vivan en el agua",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_080",
+        "game": "simon_dice",
+        "text": "Simón dice: di una frase alegre con voz de robot",
+        "category": "imitación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_081",
+        "game": "simon_dice",
+        "text": "Simón dice: toca tu hombro izquierdo y luego tu oreja derecha",
+        "category": "coordinación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_082",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una pose de alguien que acaba de ganar la lotería",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_083",
+        "game": "simon_dice",
+        "text": "Simón dice: di tres cosas que puedas beber sin alcohol",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_084",
+        "game": "simon_dice",
+        "text": "Simón dice: imita una gallina durante tres segundos",
+        "category": "imitación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_085",
+        "game": "simon_dice",
+        "text": "Simón dice: nombra una serie y un personaje de ella",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_086",
+        "game": "simon_dice",
+        "text": "Simón dice: finge que estás caminando contra el viento",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_087",
+        "game": "simon_dice",
+        "text": "Simón dice: di tres palabras relacionadas con el verano",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_088",
+        "game": "simon_dice",
+        "text": "Simón dice: haz un gesto de celebración silenciosa",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_089",
+        "game": "simon_dice",
+        "text": "Simón dice: di una palabra que empiece con la última letra de «amigo»",
+        "category": "rapidez",
+        "intensity": 2
+      },
+      {
+        "id": "simon_dice_090",
+        "game": "simon_dice",
+        "text": "Simón dice: imita a un locutor de radio anunciando una canción",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_091",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una pose de estatua antigua",
+        "category": "control",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_092",
+        "game": "simon_dice",
+        "text": "Simón dice: menciona tres objetos que tengan ruedas",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_093",
+        "game": "simon_dice",
+        "text": "Simón dice: finge que estás montando una bicicleta estacionaria",
+        "category": "movimiento",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_094",
+        "game": "simon_dice",
+        "text": "Simón dice: di un trabalenguas corto sin reírte",
+        "category": "rapidez",
+        "intensity": 2
+      },
+      {
+        "id": "simon_dice_095",
+        "game": "simon_dice",
+        "text": "Simón dice: haz una expresión de emoción al ver un cachorro",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_096",
+        "game": "simon_dice",
+        "text": "Simón dice: nombra tres bebidas sin alcohol",
+        "category": "memoria",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_097",
+        "game": "simon_dice",
+        "text": "Simón dice: imita a una persona que acaba de despertar",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_098",
+        "game": "simon_dice",
+        "text": "Simón dice: di una palabra que rime con amigo",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_099",
+        "game": "simon_dice",
+        "text": "Simón dice: haz un gesto que represente «tengo sueño»",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "simon_dice_100",
+        "game": "simon_dice",
+        "text": "Simón dice: menciona dos países que te gustaría visitar",
+        "category": "memoria",
+        "intensity": 1
+      }
+    ],
+    "cartas_sorpresa": [
+      {
+        "id": "cartas_sorpresa_001",
+        "game": "cartas_sorpresa",
+        "title": "CAMBIO DE TURNO",
+        "text": "Elige quién juega después.",
+        "category": "especial",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_002",
+        "game": "cartas_sorpresa",
+        "title": "VOTO SECRETO",
+        "text": "Todos señalan en silencio quién sería el mejor compañero de viaje.",
+        "category": "votación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_003",
+        "game": "cartas_sorpresa",
+        "title": "DUELO DE MÍMICA",
+        "text": "Elige a alguien; ambos imitan animales y el grupo vota por el más gracioso.",
+        "category": "duelo",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_004",
+        "game": "cartas_sorpresa",
+        "title": "INMUNIDAD",
+        "text": "Guarda esta carta para pasar una pregunta o reto más adelante.",
+        "category": "protección",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_005",
+        "game": "cartas_sorpresa",
+        "title": "TODOS JUEGAN",
+        "text": "Todos dicen su postre favorito al mismo tiempo; quien repita respuesta gana un punto.",
+        "category": "todos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_006",
+        "game": "cartas_sorpresa",
+        "title": "CONFESIÓN LIGERA",
+        "text": "Cuenta una anécdota divertida que nunca hayas contado al grupo.",
+        "category": "confesión",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_007",
+        "game": "cartas_sorpresa",
+        "title": "ELIGE CATEGORÍA",
+        "text": "El grupo elige: humor, romance, amistad o creatividad para la próxima ronda.",
+        "category": "control",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_008",
+        "game": "cartas_sorpresa",
+        "title": "DOBLE PUNTUACIÓN",
+        "text": "Gana dos puntos si completas el siguiente reto voluntariamente.",
+        "category": "puntos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_009",
+        "game": "cartas_sorpresa",
+        "title": "RECUERDO COMPARTIDO",
+        "text": "Cuenta un recuerdo bonito que tengas con alguien del grupo.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_010",
+        "game": "cartas_sorpresa",
+        "title": "PREGUNTA RELÁMPAGO",
+        "text": "Responde en cinco segundos: ¿playa o montaña? Explica brevemente.",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_011",
+        "game": "cartas_sorpresa",
+        "title": "EL JURADO · VARIANTE 01",
+        "text": "El grupo vota la mejor imitación de una celebridad; todos pueden participar. Variante 1: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "votación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_012",
+        "game": "cartas_sorpresa",
+        "title": "MODO ESTATUA · VARIANTE 02",
+        "text": "Todos se quedan quietos cinco segundos; quien se ría primero pierde un punto. Variante 2: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "todos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_013",
+        "game": "cartas_sorpresa",
+        "title": "HISTORIA EN CADENA · VARIANTE 03",
+        "text": "Cada jugador añade una frase a una historia improvisada. Variante 3: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_014",
+        "game": "cartas_sorpresa",
+        "title": "ELOGIO SINCERO · VARIANTE 04",
+        "text": "Elige a una persona y dile algo que admires de ella. Variante 4: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_015",
+        "game": "cartas_sorpresa",
+        "title": "CAMBIO DE PAPEL · VARIANTE 05",
+        "text": "Durante una ronda, habla como un presentador de televisión. Variante 5: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_016",
+        "game": "cartas_sorpresa",
+        "title": "PREGUNTA DEL GRUPO · VARIANTE 06",
+        "text": "Acepta una pregunta amistosa elegida por votación; puedes pasar sin penalización. Variante 6: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "confesión",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_017",
+        "game": "cartas_sorpresa",
+        "title": "RETO DE RIMAS · VARIANTE 07",
+        "text": "Di dos palabras que rimen en cinco segundos para ganar un punto. Variante 7: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_018",
+        "game": "cartas_sorpresa",
+        "title": "MOMENTO MUSICAL · VARIANTE 08",
+        "text": "Tararea una canción y deja que los demás la adivinen. Variante 8: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_019",
+        "game": "cartas_sorpresa",
+        "title": "BARAJA OTRA VEZ · VARIANTE 09",
+        "text": "Descarta esta carta y toma una nueva. Variante 9: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "especial",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_020",
+        "game": "cartas_sorpresa",
+        "title": "ESCUDO AMIGO · VARIANTE 10",
+        "text": "Puedes ayudar a otro jugador a cambiar un reto por una pregunta. Variante 10: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "protección",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_021",
+        "game": "cartas_sorpresa",
+        "title": "VOTA AL MÁS CREATIVO · VARIANTE 11",
+        "text": "Todos votan quién inventa la mejor frase para una película imaginaria. Variante 11: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "votación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_022",
+        "game": "cartas_sorpresa",
+        "title": "TRES PISTAS · VARIANTE 12",
+        "text": "Piensa en una película y da tres pistas para que la adivinen. Variante 12: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "juegos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_023",
+        "game": "cartas_sorpresa",
+        "title": "PALABRA PROHIBIDA · VARIANTE 13",
+        "text": "El grupo elige una palabra común que no podrás decir durante una ronda. Variante 13: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "memoria",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_024",
+        "game": "cartas_sorpresa",
+        "title": "DUELO DE CANCIONES · VARIANTE 14",
+        "text": "Dos jugadores tararean una canción; el grupo intenta adivinarlas. Variante 14: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "duelo",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_025",
+        "game": "cartas_sorpresa",
+        "title": "PASA EL TURNO · VARIANTE 15",
+        "text": "Elige a alguien para que tome el siguiente turno, sin asignarle castigos. Variante 15: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "especial",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_026",
+        "game": "cartas_sorpresa",
+        "title": "TODOS CONFIESAN · VARIANTE 16",
+        "text": "Todos comparten una pequeña manía divertida. Variante 16: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "todos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_027",
+        "game": "cartas_sorpresa",
+        "title": "MODO POSITIVO · VARIANTE 17",
+        "text": "Durante una ronda, solo puedes decir cosas positivas. Variante 17: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_028",
+        "game": "cartas_sorpresa",
+        "title": "PREDICCIÓN ABSURDA · VARIANTE 18",
+        "text": "Predice algo disparatado que podría pasar en la próxima reunión. Variante 18: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_029",
+        "game": "cartas_sorpresa",
+        "title": "RETO DE MEMORIA · VARIANTE 19",
+        "text": "Nombra tres cosas mencionadas anteriormente en la partida. Variante 19: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "memoria",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_030",
+        "game": "cartas_sorpresa",
+        "title": "ELIGE AL DJ · VARIANTE 20",
+        "text": "Escoge la próxima canción de la lista del grupo. Variante 20: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_031",
+        "game": "cartas_sorpresa",
+        "title": "EL JURADO · VARIANTE 21",
+        "text": "El grupo vota la mejor imitación de una celebridad; todos pueden participar. Variante 21: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "votación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_032",
+        "game": "cartas_sorpresa",
+        "title": "MODO ESTATUA · VARIANTE 22",
+        "text": "Todos se quedan quietos cinco segundos; quien se ría primero pierde un punto. Variante 22: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "todos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_033",
+        "game": "cartas_sorpresa",
+        "title": "HISTORIA EN CADENA · VARIANTE 23",
+        "text": "Cada jugador añade una frase a una historia improvisada. Variante 23: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_034",
+        "game": "cartas_sorpresa",
+        "title": "ELOGIO SINCERO · VARIANTE 24",
+        "text": "Elige a una persona y dile algo que admires de ella. Variante 24: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_035",
+        "game": "cartas_sorpresa",
+        "title": "CAMBIO DE PAPEL · VARIANTE 25",
+        "text": "Durante una ronda, habla como un presentador de televisión. Variante 25: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_036",
+        "game": "cartas_sorpresa",
+        "title": "PREGUNTA DEL GRUPO · VARIANTE 26",
+        "text": "Acepta una pregunta amistosa elegida por votación; puedes pasar sin penalización. Variante 26: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "confesión",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_037",
+        "game": "cartas_sorpresa",
+        "title": "RETO DE RIMAS · VARIANTE 27",
+        "text": "Di dos palabras que rimen en cinco segundos para ganar un punto. Variante 27: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_038",
+        "game": "cartas_sorpresa",
+        "title": "MOMENTO MUSICAL · VARIANTE 28",
+        "text": "Tararea una canción y deja que los demás la adivinen. Variante 28: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_039",
+        "game": "cartas_sorpresa",
+        "title": "BARAJA OTRA VEZ · VARIANTE 29",
+        "text": "Descarta esta carta y toma una nueva. Variante 29: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "especial",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_040",
+        "game": "cartas_sorpresa",
+        "title": "ESCUDO AMIGO · VARIANTE 30",
+        "text": "Puedes ayudar a otro jugador a cambiar un reto por una pregunta. Variante 30: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "protección",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_041",
+        "game": "cartas_sorpresa",
+        "title": "VOTA AL MÁS CREATIVO · VARIANTE 31",
+        "text": "Todos votan quién inventa la mejor frase para una película imaginaria. Variante 31: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "votación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_042",
+        "game": "cartas_sorpresa",
+        "title": "TRES PISTAS · VARIANTE 32",
+        "text": "Piensa en una película y da tres pistas para que la adivinen. Variante 32: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "juegos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_043",
+        "game": "cartas_sorpresa",
+        "title": "PALABRA PROHIBIDA · VARIANTE 33",
+        "text": "El grupo elige una palabra común que no podrás decir durante una ronda. Variante 33: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "memoria",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_044",
+        "game": "cartas_sorpresa",
+        "title": "DUELO DE CANCIONES · VARIANTE 34",
+        "text": "Dos jugadores tararean una canción; el grupo intenta adivinarlas. Variante 34: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "duelo",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_045",
+        "game": "cartas_sorpresa",
+        "title": "PASA EL TURNO · VARIANTE 35",
+        "text": "Elige a alguien para que tome el siguiente turno, sin asignarle castigos. Variante 35: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "especial",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_046",
+        "game": "cartas_sorpresa",
+        "title": "TODOS CONFIESAN · VARIANTE 36",
+        "text": "Todos comparten una pequeña manía divertida. Variante 36: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "todos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_047",
+        "game": "cartas_sorpresa",
+        "title": "MODO POSITIVO · VARIANTE 37",
+        "text": "Durante una ronda, solo puedes decir cosas positivas. Variante 37: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_048",
+        "game": "cartas_sorpresa",
+        "title": "PREDICCIÓN ABSURDA · VARIANTE 38",
+        "text": "Predice algo disparatado que podría pasar en la próxima reunión. Variante 38: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_049",
+        "game": "cartas_sorpresa",
+        "title": "RETO DE MEMORIA · VARIANTE 39",
+        "text": "Nombra tres cosas mencionadas anteriormente en la partida. Variante 39: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "memoria",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_050",
+        "game": "cartas_sorpresa",
+        "title": "ELIGE AL DJ · VARIANTE 40",
+        "text": "Escoge la próxima canción de la lista del grupo. Variante 40: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_051",
+        "game": "cartas_sorpresa",
+        "title": "EL JURADO · VARIANTE 41",
+        "text": "El grupo vota la mejor imitación de una celebridad; todos pueden participar. Variante 41: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "votación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_052",
+        "game": "cartas_sorpresa",
+        "title": "MODO ESTATUA · VARIANTE 42",
+        "text": "Todos se quedan quietos cinco segundos; quien se ría primero pierde un punto. Variante 42: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "todos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_053",
+        "game": "cartas_sorpresa",
+        "title": "HISTORIA EN CADENA · VARIANTE 43",
+        "text": "Cada jugador añade una frase a una historia improvisada. Variante 43: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_054",
+        "game": "cartas_sorpresa",
+        "title": "ELOGIO SINCERO · VARIANTE 44",
+        "text": "Elige a una persona y dile algo que admires de ella. Variante 44: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_055",
+        "game": "cartas_sorpresa",
+        "title": "CAMBIO DE PAPEL · VARIANTE 45",
+        "text": "Durante una ronda, habla como un presentador de televisión. Variante 45: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_056",
+        "game": "cartas_sorpresa",
+        "title": "PREGUNTA DEL GRUPO · VARIANTE 46",
+        "text": "Acepta una pregunta amistosa elegida por votación; puedes pasar sin penalización. Variante 46: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "confesión",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_057",
+        "game": "cartas_sorpresa",
+        "title": "RETO DE RIMAS · VARIANTE 47",
+        "text": "Di dos palabras que rimen en cinco segundos para ganar un punto. Variante 47: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_058",
+        "game": "cartas_sorpresa",
+        "title": "MOMENTO MUSICAL · VARIANTE 48",
+        "text": "Tararea una canción y deja que los demás la adivinen. Variante 48: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_059",
+        "game": "cartas_sorpresa",
+        "title": "BARAJA OTRA VEZ · VARIANTE 49",
+        "text": "Descarta esta carta y toma una nueva. Variante 49: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "especial",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_060",
+        "game": "cartas_sorpresa",
+        "title": "ESCUDO AMIGO · VARIANTE 50",
+        "text": "Puedes ayudar a otro jugador a cambiar un reto por una pregunta. Variante 50: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "protección",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_061",
+        "game": "cartas_sorpresa",
+        "title": "VOTA AL MÁS CREATIVO · VARIANTE 51",
+        "text": "Todos votan quién inventa la mejor frase para una película imaginaria. Variante 51: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "votación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_062",
+        "game": "cartas_sorpresa",
+        "title": "TRES PISTAS · VARIANTE 52",
+        "text": "Piensa en una película y da tres pistas para que la adivinen. Variante 52: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "juegos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_063",
+        "game": "cartas_sorpresa",
+        "title": "PALABRA PROHIBIDA · VARIANTE 53",
+        "text": "El grupo elige una palabra común que no podrás decir durante una ronda. Variante 53: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "memoria",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_064",
+        "game": "cartas_sorpresa",
+        "title": "DUELO DE CANCIONES · VARIANTE 54",
+        "text": "Dos jugadores tararean una canción; el grupo intenta adivinarlas. Variante 54: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "duelo",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_065",
+        "game": "cartas_sorpresa",
+        "title": "PASA EL TURNO · VARIANTE 55",
+        "text": "Elige a alguien para que tome el siguiente turno, sin asignarle castigos. Variante 55: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "especial",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_066",
+        "game": "cartas_sorpresa",
+        "title": "TODOS CONFIESAN · VARIANTE 56",
+        "text": "Todos comparten una pequeña manía divertida. Variante 56: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "todos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_067",
+        "game": "cartas_sorpresa",
+        "title": "MODO POSITIVO · VARIANTE 57",
+        "text": "Durante una ronda, solo puedes decir cosas positivas. Variante 57: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_068",
+        "game": "cartas_sorpresa",
+        "title": "PREDICCIÓN ABSURDA · VARIANTE 58",
+        "text": "Predice algo disparatado que podría pasar en la próxima reunión. Variante 58: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_069",
+        "game": "cartas_sorpresa",
+        "title": "RETO DE MEMORIA · VARIANTE 59",
+        "text": "Nombra tres cosas mencionadas anteriormente en la partida. Variante 59: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "memoria",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_070",
+        "game": "cartas_sorpresa",
+        "title": "ELIGE AL DJ · VARIANTE 60",
+        "text": "Escoge la próxima canción de la lista del grupo. Variante 60: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_071",
+        "game": "cartas_sorpresa",
+        "title": "EL JURADO · VARIANTE 61",
+        "text": "El grupo vota la mejor imitación de una celebridad; todos pueden participar. Variante 61: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "votación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_072",
+        "game": "cartas_sorpresa",
+        "title": "MODO ESTATUA · VARIANTE 62",
+        "text": "Todos se quedan quietos cinco segundos; quien se ría primero pierde un punto. Variante 62: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "todos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_073",
+        "game": "cartas_sorpresa",
+        "title": "HISTORIA EN CADENA · VARIANTE 63",
+        "text": "Cada jugador añade una frase a una historia improvisada. Variante 63: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_074",
+        "game": "cartas_sorpresa",
+        "title": "ELOGIO SINCERO · VARIANTE 64",
+        "text": "Elige a una persona y dile algo que admires de ella. Variante 64: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_075",
+        "game": "cartas_sorpresa",
+        "title": "CAMBIO DE PAPEL · VARIANTE 65",
+        "text": "Durante una ronda, habla como un presentador de televisión. Variante 65: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_076",
+        "game": "cartas_sorpresa",
+        "title": "PREGUNTA DEL GRUPO · VARIANTE 66",
+        "text": "Acepta una pregunta amistosa elegida por votación; puedes pasar sin penalización. Variante 66: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "confesión",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_077",
+        "game": "cartas_sorpresa",
+        "title": "RETO DE RIMAS · VARIANTE 67",
+        "text": "Di dos palabras que rimen en cinco segundos para ganar un punto. Variante 67: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_078",
+        "game": "cartas_sorpresa",
+        "title": "MOMENTO MUSICAL · VARIANTE 68",
+        "text": "Tararea una canción y deja que los demás la adivinen. Variante 68: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_079",
+        "game": "cartas_sorpresa",
+        "title": "BARAJA OTRA VEZ · VARIANTE 69",
+        "text": "Descarta esta carta y toma una nueva. Variante 69: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "especial",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_080",
+        "game": "cartas_sorpresa",
+        "title": "ESCUDO AMIGO · VARIANTE 70",
+        "text": "Puedes ayudar a otro jugador a cambiar un reto por una pregunta. Variante 70: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "protección",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_081",
+        "game": "cartas_sorpresa",
+        "title": "VOTA AL MÁS CREATIVO · VARIANTE 71",
+        "text": "Todos votan quién inventa la mejor frase para una película imaginaria. Variante 71: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "votación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_082",
+        "game": "cartas_sorpresa",
+        "title": "TRES PISTAS · VARIANTE 72",
+        "text": "Piensa en una película y da tres pistas para que la adivinen. Variante 72: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "juegos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_083",
+        "game": "cartas_sorpresa",
+        "title": "PALABRA PROHIBIDA · VARIANTE 73",
+        "text": "El grupo elige una palabra común que no podrás decir durante una ronda. Variante 73: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "memoria",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_084",
+        "game": "cartas_sorpresa",
+        "title": "DUELO DE CANCIONES · VARIANTE 74",
+        "text": "Dos jugadores tararean una canción; el grupo intenta adivinarlas. Variante 74: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "duelo",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_085",
+        "game": "cartas_sorpresa",
+        "title": "PASA EL TURNO · VARIANTE 75",
+        "text": "Elige a alguien para que tome el siguiente turno, sin asignarle castigos. Variante 75: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "especial",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_086",
+        "game": "cartas_sorpresa",
+        "title": "TODOS CONFIESAN · VARIANTE 76",
+        "text": "Todos comparten una pequeña manía divertida. Variante 76: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "todos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_087",
+        "game": "cartas_sorpresa",
+        "title": "MODO POSITIVO · VARIANTE 77",
+        "text": "Durante una ronda, solo puedes decir cosas positivas. Variante 77: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "humor",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_088",
+        "game": "cartas_sorpresa",
+        "title": "PREDICCIÓN ABSURDA · VARIANTE 78",
+        "text": "Predice algo disparatado que podría pasar en la próxima reunión. Variante 78: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_089",
+        "game": "cartas_sorpresa",
+        "title": "RETO DE MEMORIA · VARIANTE 79",
+        "text": "Nombra tres cosas mencionadas anteriormente en la partida. Variante 79: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "memoria",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_090",
+        "game": "cartas_sorpresa",
+        "title": "ELIGE AL DJ · VARIANTE 80",
+        "text": "Escoge la próxima canción de la lista del grupo. Variante 80: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_091",
+        "game": "cartas_sorpresa",
+        "title": "EL JURADO · VARIANTE 81",
+        "text": "El grupo vota la mejor imitación de una celebridad; todos pueden participar. Variante 81: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "votación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_092",
+        "game": "cartas_sorpresa",
+        "title": "MODO ESTATUA · VARIANTE 82",
+        "text": "Todos se quedan quietos cinco segundos; quien se ría primero pierde un punto. Variante 82: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "todos",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_093",
+        "game": "cartas_sorpresa",
+        "title": "HISTORIA EN CADENA · VARIANTE 83",
+        "text": "Cada jugador añade una frase a una historia improvisada. Variante 83: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "creatividad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_094",
+        "game": "cartas_sorpresa",
+        "title": "ELOGIO SINCERO · VARIANTE 84",
+        "text": "Elige a una persona y dile algo que admires de ella. Variante 84: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "amistad",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_095",
+        "game": "cartas_sorpresa",
+        "title": "CAMBIO DE PAPEL · VARIANTE 85",
+        "text": "Durante una ronda, habla como un presentador de televisión. Variante 85: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "actuación",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_096",
+        "game": "cartas_sorpresa",
+        "title": "PREGUNTA DEL GRUPO · VARIANTE 86",
+        "text": "Acepta una pregunta amistosa elegida por votación; puedes pasar sin penalización. Variante 86: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "confesión",
+        "intensity": 2
+      },
+      {
+        "id": "cartas_sorpresa_097",
+        "game": "cartas_sorpresa",
+        "title": "RETO DE RIMAS · VARIANTE 87",
+        "text": "Di dos palabras que rimen en cinco segundos para ganar un punto. Variante 87: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "rapidez",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_098",
+        "game": "cartas_sorpresa",
+        "title": "MOMENTO MUSICAL · VARIANTE 88",
+        "text": "Tararea una canción y deja que los demás la adivinen. Variante 88: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "música",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_099",
+        "game": "cartas_sorpresa",
+        "title": "BARAJA OTRA VEZ · VARIANTE 89",
+        "text": "Descarta esta carta y toma una nueva. Variante 89: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "especial",
+        "intensity": 1
+      },
+      {
+        "id": "cartas_sorpresa_100",
+        "game": "cartas_sorpresa",
+        "title": "ESCUDO AMIGO · VARIANTE 90",
+        "text": "Puedes ayudar a otro jugador a cambiar un reto por una pregunta. Variante 90: el grupo decide el orden de participación y cualquier persona puede pasar.",
+        "category": "protección",
+        "intensity": 1
+      }
+    ]
+  }
+}
